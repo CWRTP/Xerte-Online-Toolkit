@@ -177,3 +177,16 @@ CREATE TABLE `$user_sessions` (
   PRIMARY KEY (`session_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+CREATE TABLE `$allowed_users` (
+	`id` INT AUTO_INCREMENT NOT NULL,
+	`firstname` VARCHAR(128) NOT NULL,
+	`surname` VARCHAR(128) NOT NULL,
+	`username` VARCHAR(32) NOT NULL,
+	`password` VARCHAR(64) NOT NULL,
+	`needs_update` BIT NOT NULL DEFAULT FALSE,
+	`is_admin` BIT NOT NULL DEFAULT FALSE,
+	PRIMARY KEY(`id`),
+	UNIQUE(`username`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `$allowed_users` VALUES(0, 'Admin', 'Admin', 'administrator', 'administrator', 1, 1 );
