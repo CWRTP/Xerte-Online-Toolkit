@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Add of remove users</title>
+<title>Add or remove users</title>
 <link href="website_code/styles/passwordpages.css" media="screen" type="text/css" rel="stylesheet" />
 </head>
 <body>
