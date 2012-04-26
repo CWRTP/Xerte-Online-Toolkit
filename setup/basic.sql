@@ -189,4 +189,4 @@ CREATE TABLE `$allowed_users` (
 	UNIQUE(`username`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-INSERT INTO `$allowed_users` VALUES(0, 'Admin', 'Admin', 'administrator', 'administrator', 1, 1 );
+INSERT INTO `$allowed_users` VALUES(0, 'Admin', 'Admin', 'administrator', 'b3aca92c793ee0e9b1a9b0a5f5fc044e05140df3', 1, 1 );
