@@ -19,6 +19,8 @@ include $xerte_toolkits_site->php_library_path . "login_library.php";
 
 include $xerte_toolkits_site->php_library_path . "display_library.php";
 
+include $xerte_toolkits_site->php_library_path . "database_library.php";
+
 /**
  *  Check to see if anything has been posted to distinguish between log in attempts
  */
